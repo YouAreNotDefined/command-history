@@ -1,24 +1,36 @@
 {
   "name": "command-history",
 	"displayName": "Command History",
-	"description": "",
+	"description": "View and copy command history and logs.",
+  "keywords": [
+    "command",
+    "log",
+    "visualise",
+    "history",
+    "copy"
+  ],
 	"version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YouAreNotDefined/command-history"
+  },
 	"engines": {
 		"vscode": "^1.63.0"
 	},
 	"categories": [
 		"Other"
 	],
+  "homepage": "https://github.com/YouAreNotDefined/command-history",
+  "extensionKind": [
+    "workspace"
+  ],
 	"activationEvents": [
-        "onCommand:command-history.helloWorld"
+        "*"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
-			{
-				"command": "command-history.helloWorld",
-				"title": "Hello World"
-			}
+
 		]
 	},
 	"scripts": {
